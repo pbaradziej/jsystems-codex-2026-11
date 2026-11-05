@@ -1,0 +1,210 @@
+{
+  "metadata": {
+    "source": "https://www.ing.pl/",
+    "capturedOn": "2026-11-05",
+    "method": "Playwright CLI 0.1.23, visible Chrome, computed styles and same-origin asset fetch",
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "scope": "Public homepage, desktop, default state after rejecting optional cookies",
+    "status": "Observed reference, not an official ING design-system specification",
+    "unknown": [
+      "Error and success colors",
+      "Overlay color",
+      "Hover, focus, disabled and validation states",
+      "Responsive breakpoints"
+    ],
+    "spacingBasis": "4px normalization inferred from observed 4, 8, 12, 16, 24 and 32px values"
+  },
+  "colors": {
+    "brand": {
+      "primary": "#FF6200",
+      "accent": "#7724FF",
+      "error": null,
+      "success": null
+    },
+    "background": {
+      "default": "#FFFFFF",
+      "light": "#F0F0F0",
+      "warm": "#F7F4F1",
+      "lavender": "#F0E8FE",
+      "promo": "#F1E9FF",
+      "service": "#EDEDF5",
+      "overlay": null
+    },
+    "text": {
+      "primary": "#0D0804",
+      "secondary": "#696969",
+      "muted": "#767676",
+      "link": "#525199",
+      "onDark": "#FFFFFF"
+    }
+  },
+  "typography": {
+    "fontFamily": {
+      "primary": "INGme, Helvetica, Arial, sans-serif",
+      "display": "\"ING Display\", INGme, Helvetica, Arial, sans-serif"
+    },
+    "fontWeights": {
+      "regular": 400,
+      "bold": 700,
+      "displayVariable": "400 900"
+    },
+    "fontSize": {
+      "xs": "12px",
+      "sm": "14px",
+      "base": "16px",
+      "cta": "19px",
+      "lg": "24px",
+      "xl": "32px",
+      "hero": "80px"
+    },
+    "lineHeight": {
+      "body": "20px",
+      "navigation": "24px",
+      "section": "32px",
+      "hero": "80px"
+    }
+  },
+  "spacing": {
+    "1": "4px",
+    "2": "8px",
+    "3": "12px",
+    "4": "16px",
+    "6": "24px",
+    "8": "32px"
+  },
+  "borderRadius": {
+    "none": "0px",
+    "sm": "4px",
+    "control": "8px",
+    "card": "14px",
+    "lg": "16px",
+    "round": "23px"
+  },
+  "components": {
+    "button": {
+      "primary": {
+        "backgroundColor": "#7724FF",
+        "color": "#FFFFFF",
+        "padding": "12px 25px",
+        "fontSize": "19px",
+        "fontWeight": 700,
+        "lineHeight": "23.75px",
+        "height": "64px",
+        "borderRadius": "0px",
+        "clipPath": "shape(from 89.52% 0.17%, line to 84.76% 0.17%, curve to 43.23% 1.91% with 67.68% -0.4%, curve to 5.75% 8.96% with 15.03% 4.51%, curve to 1.01% 19.23% with 2.47% 10.49%, curve to 0% 31.45% with 0.19% 24.19%, line to 0.27% 59.57%, curve to 1.78% 82.06% with 0.46% 73.73%, curve to 7.7% 93.61% with 3.65% 93.66%, line to 87.12% 100%, curve to 91.94% 99.49% with 90.89% 99.95%, curve to 95.44% 95.35% with 94.15% 98.67%, curve to 97.82% 83.08% with 96.93% 91.51%, curve to 99.27% 58.29% with 98.75% 74.24%, line to 99.79% 40.91%, curve to 99.1% 12.9% with 100.44% 21.79%, curve to 89.52% 0.17% with 96.95% -1.47%, close)",
+        "implementation": "The colored organic silhouette is span::before with clip-path, not a pill radius."
+      },
+      "login": {
+        "color": "#525199",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontSize": "16px",
+        "fontWeight": "700",
+        "lineHeight": "24px",
+        "padding": "5px 11px",
+        "borderRadius": "8px",
+        "border": "1px solid #525199",
+        "boxShadow": "none",
+        "gap": "normal"
+      }
+    },
+    "header": {
+      "backgroundColor": "#FFFFFF",
+      "utilityBackgroundColor": "#F0F0F0",
+      "padding": "0px",
+      "fontSize": "16px"
+    },
+    "nav": {
+      "color": "#0D0804",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "INGme, Helvetica, Arial, sans-serif",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "padding": "12px",
+      "margin": "0px",
+      "borderRadius": "0px",
+      "lineHeight": "24px",
+      "border": "0px none #0D0804",
+      "boxShadow": "none",
+      "maxWidth": "none",
+      "gap": "normal"
+    },
+    "input": {
+      "color": "#0D0804",
+      "backgroundColor": "#FFFFFF",
+      "fontFamily": "INGme, Helvetica, Arial, sans-serif",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "padding": "5px 0px 5px 11px",
+      "margin": "0px",
+      "borderRadius": "4px 0px 0px 4px",
+      "lineHeight": "20px",
+      "border": "",
+      "boxShadow": "#D5D5D5 0px 4px 2px -2px inset",
+      "maxWidth": "none",
+      "gap": "normal"
+    },
+    "card": {
+      "color": "#0D0804",
+      "backgroundColor": "#FFFFFF",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "lineHeight": "20px",
+      "padding": "32px 24px 8px",
+      "borderRadius": "14px",
+      "border": "0px none #0D0804",
+      "boxShadow": "rgba(0, 0, 0, 0.08) 0px 18px 40px 0px, rgba(0, 0, 0, 0.04) 0px 5px 15px 0px",
+      "gap": "normal"
+    },
+    "hero": {
+      "backgroundColor": "#FF6200",
+      "headingFontSize": "80px",
+      "headingLineHeight": "80px",
+      "headingFontWeight": 700
+    },
+    "layout": {
+      "cardWidth": "290px",
+      "cardGap": "24px",
+      "note": "Measured on desktop at 1440px viewport; not a responsive constraint."
+    }
+  },
+  "assets": {
+    "logo": {
+      "path": "assets/logo.svg",
+      "source": "https://www.ing.pl/_static/img/logo_lsl_new.5800ff4f65b35cf926f5.svg"
+    },
+    "fonts": [
+      {
+        "css": "@font-face { font-family: web-fonts; src: url(\"/_static/web-fonts//web-fonts.woff\") format(\"woff\"); }",
+        "stylesheet": "https://www.ing.pl/_static/css/section_divider.c930a99e9a438f0cc3d3.css"
+      },
+      {
+        "css": "@font-face { font-family: ProximaNova; font-style: normal; font-weight: 300; font-display: swap; src: local(\"ProximaNova Light\"), url(\"/_static/fonts/ProximaNova-Light.84d721b3abc43bd990f7.woff\") format(\"woff\"); }",
+        "stylesheet": "https://www.ing.pl/_static/css/app-shell.66f77e270a33e2f7b9ce.css"
+      },
+      {
+        "css": "@font-face { font-family: ProximaNova; font-style: normal; font-weight: 400; font-display: swap; src: local(\"ProximaNova Regular\"), local(\"ProximaNova-Regular\"), url(\"/_static/fonts/ProximaNova-regular.4523679e932bedc39f2e.woff\") format(\"woff\"); }",
+        "stylesheet": "https://www.ing.pl/_static/css/app-shell.66f77e270a33e2f7b9ce.css"
+      },
+      {
+        "css": "@font-face { font-family: ProximaNova; font-style: normal; font-weight: 700; font-display: swap; src: local(\"ProximaNova Bold\"), local(\"ProximaNova-Bold\"), url(\"/_static/fonts/ProximaNova-bold.9ff94b872c7bdcb65dbb.woff\") format(\"woff\"); }",
+        "stylesheet": "https://www.ing.pl/_static/css/app-shell.66f77e270a33e2f7b9ce.css"
+      },
+      {
+        "css": "@font-face { font-family: INGme; font-style: normal; font-weight: 400; font-display: swap; src: local(\"INGMe Regular\"), url(\"/_static/fonts/INGMe-Regular.31ed947193fd3b0e0466.woff\") format(\"woff\"); }",
+        "stylesheet": "https://www.ing.pl/_static/css/app-shell.66f77e270a33e2f7b9ce.css"
+      },
+      {
+        "css": "@font-face { font-family: INGme; font-style: normal; font-weight: 700; font-display: swap; src: local(\"INGMe Bold\"), url(\"/_static/fonts/INGMe-Bold.5c73399898ab77d6f1c7.woff\") format(\"woff\"); }",
+        "stylesheet": "https://www.ing.pl/_static/css/app-shell.66f77e270a33e2f7b9ce.css"
+      },
+      {
+        "css": "@font-face { font-family: \"ING Display\"; src: url(\"/_static/fonts/INGdisplay-VAR.2c99c41224fafbfb8699.woff2\") format(\"woff2\"); font-weight: 400 900; font-style: normal; font-display: swap; }",
+        "stylesheet": "https://www.ing.pl/_static/css/app-shell.66f77e270a33e2f7b9ce.css"
+      }
+    ],
+    "rights": "Verify licenses for ING logo, fonts, favicon and screenshot before reuse or redistribution."
+  }
+}
